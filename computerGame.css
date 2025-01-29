@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 100px;
+  padding-bottom: 3%;
+}
+.scoreboard {
+  display: inline-flex;
+  justify-content: space-around;
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin-top: -850px;
+  margin-bottom: -170px;
+  background-color: #7d09a8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.player {
+  text-align: center;
+}
+
+.player h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.controls {
+  margin-bottom: 30px;
+}
+
+button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: -50px;
+}
+
+.sp:hover {
+  transform: scale(1.2);
+}
+
+.ss:hover {
+  transform: scale(1.2);
+}
+
+.sr:hover {
+  transform: scale(1.2);
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f8fbf6;
+}
+
+.shake {
+  animation: shake 0.5s; /* Note: No 'infinite' here */
+}
+
+@keyframes shake {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(60px); }
+  50% { transform: translateY(0); }
+  75% { transform: translateY(60px); }
+  100% { transform: translateY(0); }
+}
+
+.rockimage2 {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: -50%;
+  top: 30%;
+}
+
+.rockimage3 {
+  height: 300px;
+  width: 450px;
+  position: relative;
+  right: -50%;
+  top: 25%;
+}
+
+.sr{
+  display: flex;
+width: fit-content;
+height: 115px;
+padding-left: 10px;
+display: inline-block;
+margin-right: 10px;
+margin-top: -50px;
+cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.sp{
+  display: flex;
+width: fit-content;
+height: 120px;
+padding-left: 10px;
+display: inline-block;
+margin-right: 10px;
+margin-top: -50px;
+cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.ss{
+  display: flex;
+width: fit-content;
+height: 120px;
+padding-left: 10px;
+display: inline-block;
+margin-right: 10px;
+margin-top: -50px;
+cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.text{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bolder;
+}

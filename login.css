@@ -1,0 +1,61 @@
+.signin{
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.login{
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+.user{
+    display: inline-flex;
+    padding-bottom: 20px;
+}
+.con1{
+    margin-bottom: 450px;
+}
+.con2{
+    margin-bottom: 500px;
+}
+.acclogo{
+    width: 70px;
+    height: 50px;
+}
+.username{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 1px;
+}
+.Inputu{
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.Inputp{
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.loginBtn{
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.loginBtn:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
