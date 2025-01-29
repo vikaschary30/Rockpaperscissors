@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+h1{
+  color: white;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-shadow: 10px 10px 20px #000000;
+}
+.rockimage{
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  left: -5%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-30deg);
+}
+.scissorsimage{
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  right: -3%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-150deg);
+}
+.btn1{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7d09a8;
+  height: 40px;
+  color: white;
+  padding: 15px 30px;
+  padding-left: 130px;
+  padding-right: 130px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: transform 0.3s ease;
+  margin-bottom: 1%;
+}
+.btn1:hover{
+  background-color: #ed9420;
+  color: #000000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
+}
+.btn2{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7d09a8;
+  height: 40px;
+  color: white;
+  padding: 15px 30px;
+  padding-left: 130px;
+  padding-right: 130px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: transform 0.3s ease;
+  margin-bottom: 1%;
+}
+.btn2:hover{
+  background-color: #ed9420;
+  color: #000000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
+}
+.cont{
+  margin-bottom: 3%;
+}
